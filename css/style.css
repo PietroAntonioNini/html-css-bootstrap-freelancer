@@ -10,7 +10,8 @@
         background-color: #2C3D50 !important;
     }
 
-    .section-one {
+    .section-one,
+    .section-three {
         background-color: #1ABC9C;
     }
 
@@ -59,7 +60,18 @@
 
     /* Seconda Section */
 
+    .section-two {
+        margin-bottom: 20px;
+    }
+
     .section-two .star-in-line::before,
     .section-two .star-in-line::after {
         background-color: #2C3D50;
+    }
+
+    /* Terza Section */
+
+    .section-three .fa-download {
+        padding-right: 5px;
+        font-size: 16px;
     }
