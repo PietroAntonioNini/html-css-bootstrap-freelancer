@@ -1,0 +1,52 @@
+
+    .bg-body-tertiary {
+        --bs-bg-opacity: 1;
+        background-color: #2C3D50 !important;
+    }
+
+    main .section-one {
+        background-color: #1ABC9C;
+        padding: 30px 0;
+    }
+
+    .image {
+        width: 150px;
+        margin: auto;
+        padding-bottom: 5px;
+    }
+
+    .star-in-line {
+        position: relative;
+        display: inline-block;
+        width: 280px;
+        height: 3px;
+    }
+      
+    .star-in-line::before,
+    .star-in-line::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100px;
+        background-color: white;
+    }
+      
+    .star-in-line::before {
+        left: 0px;
+    }
+      
+    .star-in-line::after {
+        right: 0px;
+    }      
+
+    .fa-star {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+    }
+
+    .info {
+        padding-top: 10px;
+    }
