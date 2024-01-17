@@ -65,7 +65,9 @@
     }
 
     .section-two .star-in-line::before,
-    .section-two .star-in-line::after {
+    .section-two .star-in-line::after,
+    .section-four .star-in-line::before,
+    .section-four .star-in-line::after {
         background-color: #2C3D50;
     }
 
@@ -74,4 +76,40 @@
     .section-three .fa-download {
         padding-right: 5px;
         font-size: 16px;
+    }
+
+    /* Quarta Section */
+
+    .section-four {
+        margin: 20px 0;
+    }
+
+
+    /* Footer */
+
+    footer > div:nth-child(1) {
+        background-color: #3A546D;
+    }
+
+    footer > div:nth-child(2) {
+        background-color: #2C3D50;
+    }
+
+    footer h3 {
+        margin: 0;
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+
+    footer span {
+        font-size: 14px;
+    }
+
+    .icon button .fa-brands {
+        font-size: 15px;
+    }
+
+    footer > div:nth-child(2) span  {
+        font-size: 8px;
     }
