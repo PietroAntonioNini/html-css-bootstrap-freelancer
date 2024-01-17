@@ -1,12 +1,17 @@
 
+    [class*="section-"] {
+        padding: 30px 0;
+    }
+
+    /* Prima Section */
+
     .bg-body-tertiary {
         --bs-bg-opacity: 1;
         background-color: #2C3D50 !important;
     }
 
-    main .section-one {
+    .section-one {
         background-color: #1ABC9C;
-        padding: 30px 0;
     }
 
     .image {
@@ -49,4 +54,12 @@
 
     .info {
         padding-top: 10px;
+    }
+
+
+    /* Seconda Section */
+
+    .section-two .star-in-line::before,
+    .section-two .star-in-line::after {
+        background-color: #2C3D50;
     }
