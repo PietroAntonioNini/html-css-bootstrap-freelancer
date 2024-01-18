@@ -80,18 +80,15 @@
 
     /* Quarta Section */
 
-    .section-four {
-        margin: 20px 0;
-    }
 
 
     /* Footer */
 
-    footer > div:nth-child(1) {
+    .footer-section-one {
         background-color: #3A546D;
     }
 
-    footer > div:nth-child(2) {
+    .footer-section-two {
         background-color: #2C3D50;
     }
 
